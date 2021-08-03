@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>モーダルウィンドウ</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+<main>
+  <section>
+    <h1>モーダルウィンドウ</h1>
+    <div class="modal-open">
+      <button class="btn-modal js-modal-open" data-target="modal-01">モーダル1 を開く</button>
+      <button class="btn-modal js-modal-open" data-target="modal-02">モーダル2 を開く</button>
+      <button class="btn-modal js-modal-open" data-target="modal-03">モーダル3 を開く</button>
+    </div>
+    <!-- /.modal -->
+
+    <div class="modal-contents">
+      <div class="modal js-modal" id="modal-01">
+        <div class="modal__bg"></div>
+        <div class="modal__inner">
+          <button class="btn-close js-modal-close">×</button>
+          <img src="https://placehold.jp/3d4070/ffffff/600x300.png" alt="">
+        </div>
+      </div>
+      <div class="modal js-modal" id="modal-02">
+        <div class="modal__bg"></div>
+        <div class="modal__inner">
+          <button class="btn-close js-modal-close">×</button>
+          <img src="https://placehold.jp/3d4070/ffffff/600x300.png" alt="">
+        </div>
+      </div>
+      <div class="modal js-modal" id="modal-03">
+        <div class="modal__bg"></div>
+        <div class="modal__inner">
+          <button class="btn-close js-modal-close">×</button>
+          <img src="https://placehold.jp/3d4070/ffffff/600x300.png" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- /.modal-contents -->
+
+  </section>
+</main>
+
+
+<script src="modal.js"></script>
+</body>
+</html>
