@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+#clock{
+  border: 3px solid #000;
+  border-radius: 50%;
+  height: 420px;
+  position: relative;
+  width: 420px;
+}
+.lineHour{
+  width: 10px;
+  height: 150px;
+  background: #000;
+  position: absolute;
+  top: calc(50% - 150px);
+  left: calc(50% - 5px);
+  transform-origin: bottom;
+}
+.lineMin{
+  width: 4px;
+  height: 200px;
+  background: #000;
+  position: absolute;
+  top: calc(50% - 200px);
+  left: calc(50% - 2px);
+  transform-origin: bottom;
+}
+.lineSec{
+  width: 2px;
+  height: 200px;
+  background: #000;
+  position: absolute;
+  top: calc(50% - 200px);
+  left: calc(50% - 1px);
+  transform-origin: bottom;
+}
