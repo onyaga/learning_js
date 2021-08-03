@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>入力フォーム</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<link rel="stylesheet" href="style.css">
+</head>
+
+
+
+
+<body>
+<main>
+  <form method="post" action="">
+    <div>
+      <label class="btn--select"><input type="radio" name="entry" value="not_member" onclick="entryChange();" checked="checked">はじめてのかた</label>
+      <label class="btn--select"><input type="radio" name="entry" value="member" onclick="entryChange();">IDをお持ちの方</label>
+    </div>
+
+    <div id="not_member">
+      <div>
+        <label>名前</label>
+        <input type="text" name="name" autocomplete="name" placeholder="" required>
+      </div>
+      <div>
+        <label>電話番号</label>
+        <input type="tel" name="tel" autocomplete="tel" placeholder="" required>
+      </div>
+      <div>
+        <label>住所</label>
+        <input type="tel" name="tel" autocomplete="tel" placeholder="" required>
+      </div>
+    </div>
+
+    <div id="member">
+      <div>
+        <label>ID</label>
+        <input type="text" name="name" autocomplete="name" placeholder="" required>
+      </div>
+      <div>
+        <label>PASS</label>
+        <input type="tel" name="tel" autocomplete="tel" placeholder="" required>
+      </div>
+    </div>
+  </form>
+</main>
+
+
+<script src="form.js"></script>
+</body>
+</html>
